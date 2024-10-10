@@ -33,9 +33,13 @@
 💡 End-users get a solid foundation for their applications.
 
 🎯 **𝐂𝐮𝐬𝐭𝐨𝐦 𝐒𝐩𝐫𝐢𝐧𝐠 𝐁𝐨𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐫𝐬**
+
 💡 Custom starters simplify dependency management by bundling common dependencies, configurations, and best practices for specific use cases.
+
 💡 They promote code reuse and standardization across projects, reducing boilerplate code.
+
 💡 With custom starters, developers can quickly set up new applications with pre-configured settings, enhancing productivity.
+
 💡 Utilizing a custom starter streamlines the developer's tasks by handling aspects such as validation and logging, allowing them to concentrate solely on the business logic.
 
 
