@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>archetype.it</groupId>
+    <artifactId>basic</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <name>basic</name>
+    <description>basic</description>
+    <licenses>
+        <license />
+    </licenses>
+    <developers>
+        <developer />
+    </developers>
+    <scm>
+    </scm>
+    <properties>
+        <java.version>17</java.version>
+        <starter-demo.version>0.0.1-SNAPSHOT</starter-demo.version>
+    </properties>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.demo.main</groupId>
+            <artifactId>spring-boot-starter-demo</artifactId>
+            <version>${starter-demo.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
